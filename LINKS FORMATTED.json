@@ -1,0 +1,326 @@
+{
+  "id": "9bb85882-f0fe-4c64-bc45-c368d5abf8d9",
+  "startedAt": "2025-09-18T10:38:16.092Z",
+  "endedAt": "2025-09-18T10:38:16.780Z",
+  "endpoint": "extract",
+  "formState": {
+    "extractSetupCompleted": true,
+    "urls": [
+      "https://www.geeksforgeeks.org/dsa/dsa/*",
+      "www.tutorialspoint.com/data_structures_algorithms/index.htm"
+    ],
+    "extractSchema": {
+      "type": "object",
+      "properties": {
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "links"
+      ]
+    },
+    "extractPrompt": "Extract all the links related to DSA topics from the specified website.",
+    "enableWebSearch": false,
+    "options": {
+      "onlyMainContent": true,
+      "parsePDF": true,
+      "stealthMode": false,
+      "excludeTags": [],
+      "includeTags": [],
+      "waitFor": "",
+      "timeout": "",
+      "maxAge": "2 days",
+      "ignoreSitemap": false,
+      "crawlEntireDomain": false,
+      "sitemap": "include",
+      "limit": "10",
+      "maxDepth": "",
+      "excludePaths": [],
+      "includePaths": [],
+      "includeSubdomains": false,
+      "search": "",
+      "scrapeContentFromSearchResults": true,
+      "timeBasedSearch": "",
+      "location": "",
+      "prompt": ""
+    },
+    "formats": [
+      "markdown"
+    ],
+    "sources": [
+      "web"
+    ],
+    "categories": [],
+    "jsonSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_name": {
+          "type": "string"
+        },
+        "company_description": {
+          "type": "string"
+        }
+      }
+    },
+    "agent": {},
+    "url": "",
+    "endpoint": "extract"
+  },
+  "status": "success",
+  "version": "It_wdROF6AfDjH_hkbH5F",
+  "data": {
+    "links": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/linked-list-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/searching-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/sorting-algorithms/",
+      "https://www.geeksforgeeks.org/introduction-to-recursion-2/",
+      "https://www.geeksforgeeks.org/competitive-programming/dynamic-programming/",
+      "https://www.geeksforgeeks.org/dsa/binary-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/heap-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/hashing-data-structure/",
+      "https://www.geeksforgeeks.org/html/html-cheat-sheet/",
+      "https://www.geeksforgeeks.org/css/css-cheat-sheet-a-basic-guide-to-css/",
+      "https://www.geeksforgeeks.org/javascript/javascript-cheat-sheet-a-basic-guide-to-javascript/",
+      "https://www.geeksforgeeks.org/bootstrap/bootstrap-cheatsheet-a-basic-guide-to-bootstrap/",
+      "https://www.geeksforgeeks.org/jquery/jquery-cheat-sheet-a-basic-guide-to-jquery/",
+      "https://www.geeksforgeeks.org/angular-js/angular-cheat-sheet-a-basic-guide-to-angular/",
+      "https://www.geeksforgeeks.org/dsa/sde-sheet-a-complete-guide-for-sde-preparation/",
+      "https://www.geeksforgeeks.org/dsa/facebookmeta-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/dsa/amazon-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/dsa/apple-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/dsa/netflix-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/dsa/google-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/dsa/wipro-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/dsa/infosys-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/dsa/tcs-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/dsa/cognizant-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/dsa/hcl-sde-sheet-interview-questions-and-answers/",
+      "https://www.geeksforgeeks.org/interview-prep/must-do-questions-for-companies-like-tcs-cts-hcl-ibm/",
+      "https://www.geeksforgeeks.org/dsa/must-do-coding-questions-for-product-based-companies/",
+      "https://www.geeksforgeeks.org/blogs/must-coding-questions-company-wise/",
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ]
+  },
+  "sources": {
+    "links[0]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[1]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[2]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[3]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[4]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[5]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[6]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[7]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[8]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[9]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[10]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[11]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[12]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[13]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[14]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[15]": [
+      "https://www.geeksforgeeks.org/dsa/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-in-java/",
+      "https://www.geeksforgeeks.org/dsa/dsa-roadmap-for-python/",
+      "https://www.geeksforgeeks.org/dsa/dsa-crash-course-interview-guide/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-self-paced-course-basic-to-advanced-online-course/",
+      "https://www.geeksforgeeks.org/dsa/dsa-vs-development-for-placements/"
+    ],
+    "links[16]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[17]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[18]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[19]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[20]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[21]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[22]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[23]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[24]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[25]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[26]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[27]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[28]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[29]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[30]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[31]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[32]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[33]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[34]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[35]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ],
+    "links[36]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/"
+    ]
+  }
+}

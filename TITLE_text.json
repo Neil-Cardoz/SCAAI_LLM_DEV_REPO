@@ -1,0 +1,384 @@
+{
+  "id": "17f322d9-b1e7-44da-89e3-c9ddbac415a0",
+  "startedAt": "2025-09-18T10:54:05.241Z",
+  "endedAt": "2025-09-18T10:54:05.966Z",
+  "endpoint": "extract",
+  "formState": {
+    "extractSetupCompleted": true,
+    "urls": [
+      "www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "www.geeksforgeeks.org/dsa/string-data-structure/",
+      "www.geeksforgeeks.org/dsa/linked-list-data-structure/",
+      "www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "extractSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "text": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "extractPrompt": "Extract all the text in the links with proper titles, code blocks with titles and pictures with proper titles if no title give it one related to the text ",
+    "enableWebSearch": false,
+    "options": {
+      "onlyMainContent": true,
+      "parsePDF": true,
+      "stealthMode": false,
+      "excludeTags": [],
+      "includeTags": [],
+      "waitFor": "",
+      "timeout": "",
+      "maxAge": "2 days",
+      "ignoreSitemap": false,
+      "crawlEntireDomain": false,
+      "sitemap": "include",
+      "limit": "10",
+      "maxDepth": "",
+      "excludePaths": [],
+      "includePaths": [],
+      "includeSubdomains": false,
+      "search": "",
+      "scrapeContentFromSearchResults": true,
+      "timeBasedSearch": "",
+      "location": "",
+      "prompt": ""
+    },
+    "formats": [
+      "markdown"
+    ],
+    "sources": [
+      "web"
+    ],
+    "categories": [],
+    "jsonSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_name": {
+          "type": "string"
+        },
+        "company_description": {
+          "type": "string"
+        }
+      }
+    },
+    "agent": {},
+    "url": "www.geeksforgeeks.org/dsa/queue-data-structure/",
+    "endpoint": "extract"
+  },
+  "status": "success",
+  "version": "Ba8c896j2jujyFYq2brxe",
+  "data": {
+    "text": [
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+        "title": "DSA Tutorial"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/",
+        "title": "Array"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+        "title": "Strings"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/linked-list-data-structure/",
+        "title": "Linked List"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+        "title": "Stack"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+        "title": "Queue"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+        "title": "Tree"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/",
+        "title": "Graph"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/searching-algorithms/",
+        "title": "Searching"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/sorting-algorithms/",
+        "title": "Sorting"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/introduction-to-recursion-2/",
+        "title": "Recursion"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/competitive-programming/dynamic-programming/",
+        "title": "Dynamic Programming"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/binary-tree-data-structure/",
+        "title": "Binary Tree"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/",
+        "title": "Binary Search Tree"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/heap-data-structure/",
+        "title": "Heap"
+      },
+      {
+        "text": "https://www.geeksforgeeks.org/dsa/hashing-data-structure/",
+        "title": "Hashing"
+      },
+      {
+        "text": "Last Updated : 06 Sep, 2025\n\nData structures manage how data is stored and accessed, while Algorithms focus on processing this data. Examples of data structures are Array, Linked List, Tree and Heap, and examples of algorithms are Binary Search, Quick Sort and Merge Sort.\n\nWhy to Learn DSA?\n- Foundation for almost every software like GPS, Search Engines, AI ChatBots, Gaming Apps, Databases, Web Applications, etc\n- Top Companies like Google, Microsoft, Amazon, Apple, Meta and many other heavily focus on DSA in interviews.\n- Learning DSA boosts your problem-solving abilities and make you a stronger programmer.",
+        "title": "DSA Tutorial"
+      },
+      {
+        "text": "Array is a linear data structure where elements are allocated contiguous memory, allowing for constant-time access.",
+        "title": "Array"
+      },
+      {
+        "text": "A sequence of characters, typically immutable and have limited set of elements (lower case or all English alphabets).",
+        "title": "Strings"
+      },
+      {
+        "text": "A linear data structure that stores data in nodes, which are connected by pointers. Unlike arrays, nodes of linked lists are not stored in contiguous memory locations and can only be accessed sequentially, starting from the head of list.",
+        "title": "Linked List"
+      },
+      {
+        "text": "A linear data structure that follows the Last In, First Out (LIFO) principle. Stacks play an important role in managing function calls, memory, and are widely used in algorithms like stock span problem, next greater element and largest area in a histogram.",
+        "title": "Stack"
+      },
+      {
+        "text": "Queue is a linear data structure that follows the First In, First Out (FIFO) principle. Queues play an important role in managing tasks or data in order, scheduling and message handling systems.",
+        "title": "Queue"
+      },
+      {
+        "text": "A non-linear, hierarchical data structure consisting of nodes connected by edges, with a top node called the root and nodes having child nodes. It is widely used in file systems, databases, decision-making algorithms, etc.",
+        "title": "Tree"
+      },
+      {
+        "text": "A non-linear data structure consisting of a finite set of vertices (or nodes) and a set of edges (or links) that connect a pair of nodes. Graphs are widely used to represent relationships between entities.",
+        "title": "Graph"
+      },
+      {
+        "text": "Searching algorithms are used to locate specific data within a large set of data. It helps find a target value within the data.",
+        "title": "Searching"
+      },
+      {
+        "text": "Sorting algorithms are used to arrange the elements of a list in a specific order, such as numerical or alphabetical.",
+        "title": "Sorting"
+      },
+      {
+        "text": "A programming technique where a function calls itself within its own definition. It is usually used to solve problems that can be broken down into smaller instances of the same problem.",
+        "title": "Recursion"
+      },
+      {
+        "text": "Dynamic Programming is a method used to solve complex problems by breaking them down into simpler subproblems.",
+        "title": "Dynamic Programming"
+      },
+      {
+        "text": "A complete binary tree that satisfies the heap property.",
+        "title": "Binary Tree"
+      },
+      {
+        "text": "A binary tree in which each node has at most two children, and the left child's value is less than its parent's value, while the right child's value is greater.",
+        "title": "Binary Search Tree"
+      },
+      {
+        "text": "A complete binary tree that satisfies the heap property.",
+        "title": "Heap"
+      },
+      {
+        "text": "Hashing is a technique that generates a fixed-size output (hash value) from an input of variable size using mathematical formulas called hash functions.",
+        "title": "Hashing"
+      }
+    ]
+  },
+  "sources": {
+    "text[0]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[1]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[2]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[3]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[4]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[5]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[6]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[7]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[8]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[9]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[10]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[11]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[12]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[13]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[14]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[15]": [
+      "https://www.geeksforgeeks.org/dsa/queue-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/string-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/stack-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
+      "https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/"
+    ],
+    "text[16]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[17]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[18]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[19]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[20]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[21]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[22]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[23]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[24]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[25]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[26]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[27]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[28]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[29]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[30]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ],
+    "text[31]": [
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/"
+    ]
+  }
+}
