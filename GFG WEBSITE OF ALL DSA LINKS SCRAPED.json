@@ -1,0 +1,129 @@
+{
+  "data": {
+    "markdown": "- [DSA Tutorial](https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/)\n- [Array](https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/)\n- [Strings](https://www.geeksforgeeks.org/dsa/string-data-structure/)\n- [Linked List](https://www.geeksforgeeks.org/dsa/linked-list-data-structure/)\n- [Stack](https://www.geeksforgeeks.org/dsa/stack-data-structure/)\n- [Queue](https://www.geeksforgeeks.org/dsa/queue-data-structure/)\n- [Tree](https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/)\n- [Graph](https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/)\n- [Searching](https://www.geeksforgeeks.org/dsa/searching-algorithms/)\n- [Sorting](https://www.geeksforgeeks.org/dsa/sorting-algorithms/)\n- [Recursion](https://www.geeksforgeeks.org/introduction-to-recursion-2/)\n- [Dynamic Programming](https://www.geeksforgeeks.org/competitive-programming/dynamic-programming/)\n- [Binary Tree](https://www.geeksforgeeks.org/dsa/binary-tree-data-structure/)\n- [Binary Search Tree](https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/)\n- [Heap](https://www.geeksforgeeks.org/dsa/heap-data-structure/)\n- [Hashing](https://www.geeksforgeeks.org/dsa/hashing-data-structure/)\n\nSign In\n\n▲\n\n[Open In App](https://geeksforgeeksapp.page.link/?link=https://www.geeksforgeeks.org/introduction-to-arrays-data-structure-and-algorithm-tutorials/?type%3Darticle%26id%3D854003&apn=free.programming.programming&isi=1641848816&ibi=org.geeksforgeeks.GeeksforGeeksDev&efr=1)\n\n# Array Introduction\n\nLast Updated : 10 Sep, 2025\n\nComments\n\nImprove\n\nSuggest changes\n\n116 Likes\n\nLike\n\nReport\n\nAn arrayis a collection of items of the same variable type that are stored at contiguous memory locations. It is one of the most popular and simple data structures used in programming.\n\n### Basic terminologies of Array\n\n- **Array Element:** Elements are items stored in an array.\n- **Array Index:** Elements are accessed by their indexes. Indexes in most of the programming languages start from 0.\n\n### Memory representation of Array\n\nIn an array, all the elements or their references are stored in contiguous memory locations. This allows for efficient access and manipulation of elements.\n\n![1-.webp](https://media.geeksforgeeks.org/wp-content/uploads/20250224182515919065/1-.webp)![1-.webp](https://media.geeksforgeeks.org/wp-content/uploads/20250224182515919065/1-.webp)\n\n![2-.webp](https://media.geeksforgeeks.org/wp-content/uploads/20250224182515574059/2-.webp)![2-.webp](https://media.geeksforgeeks.org/wp-content/uploads/20250224182515574059/2-.webp)\n\n![3-.webp](https://media.geeksforgeeks.org/wp-content/uploads/20250224182515285430/3-.webp)![3-.webp](https://media.geeksforgeeks.org/wp-content/uploads/20250224182515285430/3-.webp)\n\nPreviousPauseNext1 / 3\n\n### Declaration of Array\n\nArrays can be declared in various ways in different languages. For better illustration, below are some language-specific array declarations:\n\nLoading Playground...\n\nC++`\n// This array will store integer type element\nint arr[5];\n// This array will store char type element\nchar arr[10];\n// This array will store float type element\nfloat arr[20];\n`CJavaPythonC#Javascript\n\n### Initialization of Array\n\nArrays can be initialized in different ways in different languages. Below are some language-specific array initialization:\n\nLoading Playground...\n\nC++`\nint arr[] = { 1, 2, 3, 4, 5 };\nchar arr[5] = { 'a', 'b', 'c', 'd', 'e' };\nfloat arr[10] = { 1.4, 2.0, 24, 5.0, 0.0 };\n`CJavaPythonC#JavaScript\n\n### Why do we Need Arrays?\n\nAssume there is a class of five students and if we have to keep records of their marks in examination then, we can do this by declaring five variables individual and keeping track of records but what if the number of students becomes very large, it would be challenging to manipulate and maintain the data. So we use an array of students.\n\n![Importance-of-Array](https://media.geeksforgeeks.org/wp-content/uploads/20240405123859/Importance-of-Array.webp)\n\n### Types of Arrays\n\nArrays can be classified in two ways:\n\n- On the basis of Size\n- On the basis of Dimensions\n\n![Types-of-Arrays](https://media.geeksforgeeks.org/wp-content/uploads/20240731124259/Types-of-Arrays.webp)\n\n### Types of Arrays on the basis of Size\n\n**1\\. Fixed Sized Arrays**\n\n- We cannot alter or update the size of this array. Here only a fixed size (i,e. the size that is mentioned in square brackets **\\[\\]**) of memory will be allocated for storage.\n- In case, we don't know the size of the array then if we declare a larger size and store a lesser number of elements, it will result in a wastage of memory. And if we declare a lesser size than the number of elements then we won't get enough memory to store all the elements.\n\nLoading Playground...\n\nC++`\n`\n\n```\n// Method 1 to create a fixed sized array.\n```\n\n```\n// Here the memory is allocated at compile time.\n```\n\n```\nint arr[5];\n```\n\n```\n​\n```\n\n```\n// Another way (creation and initialization both)\n```\n\n```\nint arr2[5] = {1, 2, 3, 4, 5};\n```\n\n```\n​\n```\n\n```\n// Method 2 to create a fixed sized array\n```\n\n```\n// Here memory is allocated at run time (Also\n```\n\n```\n// known as dynamically allocated arrays)\n```\n\n```\nint *arr = new int[5];\n```\n\nCJavaPythonC#\n\n**2\\. Dynamic Sized Arrays**\n\nThe size of the array changes as per user requirements during execution of code so the coders do not have to worry about sizes. They can add and removed the elements as per the need. The memory is mostly dynamically allocated and de-allocated in these arrays.\n\nLoading Playground...\n\nC++`\n#include<vector>\n// Dynamic Integer Array\nvector<int> v;\n`CJavaPythonC#JavaScript\n\n### Types of Arrays on the basis of Dimensions\n\n**1\\. One-dimensional Array(1-D Array):** You can imagine a 1d array as a row, where elements are stored one after another.\n\n![One-Dimensional-Array(1-D-Array)](https://media.geeksforgeeks.org/wp-content/uploads/20240405123929/One-Dimensional-Array(1-D-Array).webp)\n\n**2\\. Multi-dimensional Array:** A multi-dimensional array is an array with more than one dimension. We can use multidimensional array to store complex data in the form of tables, etc. We can have 2-D arrays, 3-D arrays, 4-D arrays and so on.\n\n- **Two-Dimensional Array(2-D Array or Matrix):** 2-D Multidimensional arrays can be considered as an array of arrays or as a matrix consisting of rows and columns.\n\n> To read more about Matrix Refer, [Matrix Data Structure](https://www.geeksforgeeks.org/dsa/matrix/)\n\n![Two-Dimensional-Array(2-D-Array-or-Matrix)](https://media.geeksforgeeks.org/wp-content/uploads/20240408165401/Two-Dimensional-Array(2-D-Array-or-Matrix).webp)\n\n- **Three-Dimensional Array(3-D Array):** A 3-D Multidimensional array contains three dimensions, so it can be considered an array of two-dimensional arrays.\n\n![Three-Dimensional-Array(3-D-Array)](https://media.geeksforgeeks.org/wp-content/uploads/20240408165421/Three-Dimensional-Array(3-D-Array).webp)\n\n### Operations on Array\n\n- [Traversal in Array](https://www.geeksforgeeks.org/dsa/traversal-in-array/)\n- **Insertions** : [At Beginning](https://www.geeksforgeeks.org/dsa/insert-element-at-the-beginning-of-an-array/), [At given position](https://www.geeksforgeeks.org/dsa/insert-element-at-a-given-position-in-an-array/) and [At the end](https://www.geeksforgeeks.org/dsa/insert-element-at-the-end-of-an-array/).\n- **Deletion :** [From Beginning](https://www.geeksforgeeks.org/dsa/delete-an-element-from-the-beginning-of-an-array/), [Given Position](https://www.geeksforgeeks.org/dsa/delete-an-element-from-a-given-position-in-an-array/), [First Occurrence](https://www.geeksforgeeks.org/dsa/delete-first-occurrence-of-given-element-from-an-array/), [All occurrences](https://www.geeksforgeeks.org/dsa/remove-element/) and [From End](https://www.geeksforgeeks.org/dsa/delete-an-element-from-the-end-of-an-array/)\n- **Searching** : [Linear Search](https://www.geeksforgeeks.org/dsa/linear-search/) and [Binary Search](https://www.geeksforgeeks.org/dsa/binary-search/)\n\n### **Related articles:**\n\n- [Top 50 Array Coding Problems](https://www.geeksforgeeks.org/dsa/top-50-array-coding-problems-for-interviews/)\n- [Array Quiz](https://www.geeksforgeeks.org/quizzes/dsa-tutorial-array/)\n- [DSA Tutorial](https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/)\n- [GfG 160](https://www.geeksforgeeks.org/courses/gfg-160-series)\n- [DSA 360](https://www.geeksforgeeks.org/courses/dsa-skill-up)\n\nComment\n\n\nMore info\n\n[Advertise with us](https://www.geeksforgeeks.org/about/contact-us/?listicles)\n\n[K](https://www.geeksforgeeks.org/user/kartik/)\n\n[kartik](https://www.geeksforgeeks.org/user/kartik/)\n\nFollow\n\n116\n\nImprove\n\nArticle Tags :\n\n- [DSA](https://www.geeksforgeeks.org/category/dsa/)\n- [DSA Tutorials](https://www.geeksforgeeks.org/tag/dsa-tutorials/)\n\n### Explore\n\n## DSA Fundamentals\n\n[Logic Building Problems\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/dsa/logic-building-problems/) [Analysis of Algorithms\\\\\n\\\\\n1 min read](https://www.geeksforgeeks.org/dsa/analysis-of-algorithms/)\n\n## Data Structures\n\n[Array Data Structure\\\\\n\\\\\n3 min read](https://www.geeksforgeeks.org/dsa/array-data-structure-guide/) [String in Data Structure\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/dsa/string-data-structure/) [Hashing in Data Structure\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/dsa/hashing-data-structure/) [Linked List Data Structure\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/dsa/linked-list-data-structure/) [Stack Data Structure\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/dsa/stack-data-structure/) [Queue Data Structure\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/dsa/queue-data-structure/) [Tree Data Structure\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/dsa/tree-data-structure/) [Graph Data Structure\\\\\n\\\\\n3 min read](https://www.geeksforgeeks.org/dsa/graph-data-structure/) [Trie Data Structure\\\\\n\\\\\n15+ min read](https://www.geeksforgeeks.org/dsa/trie-insert-and-search/)\n\n## Algorithms\n\n[Searching Algorithms\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/dsa/searching-algorithms/) [Sorting Algorithms\\\\\n\\\\\n3 min read](https://www.geeksforgeeks.org/dsa/sorting-algorithms/) [Introduction to Recursion\\\\\n\\\\\n14 min read](https://www.geeksforgeeks.org/introduction-to-recursion-2/) [Greedy Algorithms\\\\\n\\\\\n3 min read](https://www.geeksforgeeks.org/dsa/greedy-algorithms/) [Graph Algorithms\\\\\n\\\\\n3 min read](https://www.geeksforgeeks.org/dsa/graph-data-structure-and-algorithms/) [Dynamic Programming or DP\\\\\n\\\\\n3 min read](https://www.geeksforgeeks.org/competitive-programming/dynamic-programming/) [Bitwise Algorithms\\\\\n\\\\\n4 min read](https://www.geeksforgeeks.org/dsa/bitwise-algorithms/)\n\n## Advanced\n\n[Segment Tree\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/dsa/segment-tree-data-structure/) [Binary Indexed Tree or Fenwick Tree\\\\\n\\\\\n15 min read](https://www.geeksforgeeks.org/dsa/binary-indexed-tree-or-fenwick-tree-2/) [Square Root (Sqrt) Decomposition Algorithm\\\\\n\\\\\n15+ min read](https://www.geeksforgeeks.org/dsa/square-root-sqrt-decomposition-algorithm/) [Binary Lifting\\\\\n\\\\\n15+ min read](https://www.geeksforgeeks.org/competitive-programming/binary-lifting-guide-for-competitive-programming/) [Geometry\\\\\n\\\\\n2 min read](https://www.geeksforgeeks.org/maths/geometry/)\n\n## Interview Preparation\n\n[Interview Corner\\\\\n\\\\\n3 min read](https://www.geeksforgeeks.org/interview-corner/) [GfG160\\\\\n\\\\\n3 min read](https://www.geeksforgeeks.org/blogs/gfg160-160-days-of-problem-solving/)\n\n## Practice Problem\n\n[GeeksforGeeks Practice - Leading Online Coding Platform\\\\\n\\\\\n6 min read](https://www.geeksforgeeks.org/blogs/geeksforgeeks-practice-best-online-coding-platform/) [Problem of The Day - Develop the Habit of Coding\\\\\n\\\\\n5 min read](https://www.geeksforgeeks.org/blogs/problem-of-the-day-develop-the-habit-of-coding/)\n\nLike116\n\n![Lightbox](https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/)\n\nImprovement\n\nSuggest changes\n\nSuggest Changes\n\nHelp us improve. Share your suggestions to enhance the article. Contribute your expertise and make a difference in the GeeksforGeeks portal.\n\n![geeksforgeeks-suggest-icon](https://media.geeksforgeeks.org/auth-dashboard-uploads/suggestChangeIcon.png)\n\nCreate Improvement\n\nEnhance the article with your expertise. Contribute to the GeeksforGeeks community and help create better learning resources for all.\n\n![geeksforgeeks-improvement-icon](https://media.geeksforgeeks.org/auth-dashboard-uploads/createImprovementIcon.png)\n\nSuggest Changes\n\nmin 4 words, max Words Limit:1000\n\n## Thank You!\n\nYour suggestions are valuable to us.\n\n## What kind of Experience do you want to share?\n\n[Interview Experiences](https://write.geeksforgeeks.org/posts-new?cid=e8fc46fe-75e7-4a4b-be3c-0c862d655ed0) [Admission Experiences](https://write.geeksforgeeks.org/posts-new?cid=82536bdb-84e6-4661-87c3-e77c3ac04ede) [Career Journeys](https://write.geeksforgeeks.org/posts-new?cid=5219b0b2-7671-40a0-9bda-503e28a61c31) [Work Experiences](https://write.geeksforgeeks.org/posts-new?cid=22ae3354-15b6-4dd4-a5b4-5c7a105b8a8f) [Campus Experiences](https://write.geeksforgeeks.org/posts-new?cid=c5e1ac90-9490-440a-a5fa-6180c87ab8ae) [Competitive Exam Experiences](https://write.geeksforgeeks.org/posts-new?cid=5ebb8fe9-b980-4891-af07-f2d62a9735f2)\n\nLogin Modal \\| GeeksforGeeks\n\n# Log in\n\nNew user ?Register Now\n\nContinue with Google\n\nor\n\nUsername or Email\n\n\nPassword\n\nRemember me\n\nForgot Password\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nI'm not a robot\n\nreCAPTCHA\n\n[Privacy](https://www.google.com/intl/en/policies/privacy/) \\- [Terms](https://www.google.com/intl/en/policies/terms/)\n\nSign In\n\nBy creating this account, you agree to our [Privacy Policy](https://www.geeksforgeeks.org/privacy-policy/) & [Cookie Policy.](https://www.geeksforgeeks.org/legal/privacy-policy/#:~:text=the%20appropriate%20measures.-,COOKIE%20POLICY,-A%20cookie%20is)\n\n# Create Account\n\nAlready have an account ?Log in\n\nContinue with Google\n\nor\n\nUsername or Email\n\nPassword\n\nInstitution / Organization\n\n```\n\n```\n\nSign Up\n\n\\*Please enter your email address or userHandle.\n\nBack to Login\n\nReset Password\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\n[Privacy](https://www.google.com/intl/en/policies/privacy/) \\- [Terms](https://www.google.com/intl/en/policies/terms/)\n\nprotected by **reCAPTCHA**\n\n[Privacy](https://www.google.com/intl/en/policies/privacy/) \\- [Terms](https://www.google.com/intl/en/policies/terms/)\n\nreCAPTCHA",
+    "metadata": {
+      "ogLocale": "en_US",
+      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png",
+      "og:updated_time": "2025-09-10 06:27:51+00:00",
+      "og:title": "Array  Introduction - GeeksforGeeks",
+      "ogImage": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png",
+      "article:modified_time": "2025-09-10 06:27:51+00:00",
+      "keywords": "Array, Array Element, Array Index, Memory representation of Array, Declaration of Array, Initialization of Array, Fixed Sized Arrays, Dynamic Sized Arrays, One-dimensional Array, Multi-dimensional Array, Two-Dimensional Array, Three-Dimensional Array, Operations on Array, Array Traversal, Array Coding Problems",
+      "article:section": "DSA",
+      "msapplication-TileImage": "https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png",
+      "facebook-domain-verification": "xo7t4ve2wn3ywfkjdvwbrk01pvdond",
+      "og:image:width": "200",
+      "theme-color": "#308D46",
+      "ogUrl": "https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/",
+      "article:published_time": "2022-07-29 23:59:21+00:00",
+      "article:tag": "DSA Tutorials",
+      "og:type": "article",
+      "og:locale": "en_US",
+      "favicon": "https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png",
+      "ogDescription": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+      "og:image:secure_url": "https://media.geeksforgeeks.org/wp-content/uploads/20240405123859/Importance-of-Array.webp",
+      "viewport": [
+        "width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0",
+        "width=device-width, initial-scale=1.0"
+      ],
+      "modifiedTime": "2025-09-10 06:27:51+00:00",
+      "og:image": "https://media.geeksforgeeks.org/wp-content/uploads/20240405123859/Importance-of-Array.webp",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+      "og:description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+      "title": "Array  Introduction - GeeksforGeeks",
+      "language": "en-US",
+      "ogTitle": "Array  Introduction - GeeksforGeeks",
+      "publishedTime": "2022-07-29 23:59:21+00:00",
+      "og:url": "https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/",
+      "og:site_name": "GeeksforGeeks",
+      "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+      "ogSiteName": "GeeksforGeeks",
+      "og:image:type": "image/png",
+      "og:image:height": "200",
+      "scrapeId": "72b85179-5c50-4a41-a9aa-52656c29ad69",
+      "sourceURL": "www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/",
+      "url": "https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/",
+      "statusCode": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "proxyUsed": "basic",
+      "cacheState": "hit",
+      "cachedAt": "2025-09-17T11:33:57.650Z",
+      "creditsUsed": 1
+    }
+  },
+  "id": "yFjUo2eJuGVUwbyQfyD9K",
+  "startedAt": "2025-09-18T08:10:26.149Z",
+  "endedAt": "2025-09-18T08:10:27.557Z",
+  "endpoint": "scrape",
+  "formState": {
+    "extractSetupCompleted": false,
+    "urls": [],
+    "extractSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_mission": {
+          "type": "string"
+        },
+        "supports_sso": {
+          "type": "boolean"
+        },
+        "is_open_source": {
+          "type": "boolean"
+        },
+        "is_in_yc": {
+          "type": "boolean"
+        }
+      }
+    },
+    "extractPrompt": "Extract the company details, following the schema.",
+    "enableWebSearch": false,
+    "options": {
+      "onlyMainContent": true,
+      "parsePDF": true,
+      "stealthMode": false,
+      "excludeTags": [],
+      "includeTags": [],
+      "waitFor": "",
+      "timeout": "",
+      "maxAge": "2 days",
+      "ignoreSitemap": false,
+      "crawlEntireDomain": false,
+      "sitemap": "include",
+      "limit": "10",
+      "maxDepth": "",
+      "excludePaths": [],
+      "includePaths": [],
+      "includeSubdomains": false,
+      "search": "",
+      "scrapeContentFromSearchResults": true,
+      "timeBasedSearch": "",
+      "location": "",
+      "prompt": ""
+    },
+    "formats": [
+      "markdown"
+    ],
+    "sources": [
+      "web"
+    ],
+    "categories": [],
+    "jsonSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_name": {
+          "type": "string"
+        },
+        "company_description": {
+          "type": "string"
+        }
+      }
+    },
+    "agent": {},
+    "url": "www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/",
+    "endpoint": "scrape"
+  },
+  "status": "success",
+  "version": "yGYI73TlORLTDBL8eDGAx"
+}
